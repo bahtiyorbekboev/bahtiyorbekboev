@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    width: 60%;
+    height: 60vh;
+    background: rgb(23, 151, 23);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18%;
+}
+
+.hero .carousel{
+width: 500px;
+margin: 100px auto 0;
+overflow: visible;
+}
+
+.carousel img{
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+}

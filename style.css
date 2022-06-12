@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+body {
+    background: rgb(23, 151, 23);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+  }
+
+.body-5 header{
+    margin-bottom: 200px;
+} 
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-5{
+   background: #ffffff;
+   margin: auto;
+   padding: 5px 0px; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo-5{
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar-5 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar-5 ul li a{
+   text-decoration: none;
+    color: rgb(30, 255, 0);
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.navbar-5 ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: rgb(23, 151, 23);
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.navbar-5 ul li:hover::after{
+width: 100%;
+}
+
+
+.content-5{
+    margin-top: -900px;
+    width: 100%;
+    height: 15%;
+    transform: translateY(+50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.title-5{
+    font-size: 3rem;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(23, 151, 23);
+    margin-bottom: 10px;
+}
+
+.content-5 p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background: rgb(23, 151, 23);
+    width: 50%;
+    height: 200;
+    padding: 10px;
+    margin-left: 25%;
+    margin-bottom: 1px;
+    
+}
+
+.btn-5{
+    padding: 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px solid rgb(8, 121, 8);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: #72ac27;
+    background-size: 200%;
+    background-position: left;
+    transition: 0.5s;
+
+}
+
+.btn-5:hover{
+    background-position: right;
+    color: #f77700;
+}
+
+.slider{
+    color: #f77700;
+    margin-left: 0px;
+    box-sizing: border-box;
+    animation: slider 5s linear infinite;
+}
+
+@keyframes slider{
+    0%{margin-top: -400px;}
+    5%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: 0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+}
+
+.videocon{
+    margin-top: 215px;
+    margin-bottom: -70px;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.logo11{
+    width: 720px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    margin-left: 29%;
+}
+
+.logo11 img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutusmain{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.abus{
+width: 620px;
+position: relative;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 1.2rem;
+padding: 10px;
+background-color: rgb(23, 151, 23);
+margin-left: 32%;
+}
+
+.abus p{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+section .contact{
+    background-color: rgb(23, 151, 23);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+/*Galley page/*
+/* gallery page */
+.gallery-section {
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.gallery {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery a {
+    flex: 0 0 32%;
+    height: 300px;
+    background: #eee;
+    margin-top: 20px;
+}
+
+.gallery a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
